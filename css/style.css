@@ -537,3 +537,37 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
 .mobile-logo-text {
     font-size: 21px;
 }
+
+.testimonial-carousel .owl-item.center .testimonial-item img {
+    background: unset!important;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-text {
+    background: var(--primary);
+    transform: scale(1);
+    margin-top: 137px;
+}
+
+.testimonial-carousel .owl-item .testimonial-text {
+    margin-top: 137px;
+}
+
+.footer-line-icon {
+    width: 19px;
+    position: relative;
+    left: -1px;
+    margin-right: 12px;
+}
+
+.page-header {
+    background: unset;
+    background-size: cover;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    background-color: #0463fa!important;
+}
+
+.aboutus-line-icon {
+    width: 19px;
+    position: relative;
+    left: -1px;
+}
