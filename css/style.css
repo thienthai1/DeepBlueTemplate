@@ -571,3 +571,37 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
     position: relative;
     left: -1px;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .portfolio-fix {
+        left: 10%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .portfolio-fix {
+        left: 0%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .portfolio-fix {
+        left: 4%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .portfolio-fix {
+        left: 13%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .portfolio-fix {
+        left: 18%;
+    }
+}
